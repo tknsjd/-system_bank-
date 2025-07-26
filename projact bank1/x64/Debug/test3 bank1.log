@@ -1,5 +1,0 @@
-﻿  test3.cpp
-E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\test3.cpp(35,22): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\test3.cpp(603,9): warning C4101: 'withdraw': unreferenced local variable
-E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\test3.cpp(570,1): warning C4715: 'deposit': not all control paths return a value
-  test3 bank1.vcxproj -> E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\x64\Debug\projact bank1.exe
