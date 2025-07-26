@@ -1,0 +1,3 @@
+﻿  test3.cpp
+E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\test3.cpp(37,22): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  test3 bank1.vcxproj -> E:\Users\الاصيل للحاسبات\source\repos\test3 bank1\x64\Debug\test3 bank1.exe
