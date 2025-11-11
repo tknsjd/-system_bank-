@@ -119,9 +119,9 @@ bool find_clint_by_account_number(string account_number, vector<infoaccount>vinf
 		if (c.account_number == account_number)
 		{
 			myinfo = c;
-			//—«Õ ÌŒ“‰ in my info ›ﬁÿ «·⁄‰’— «·–Ì = account 
-			//by refrinc  ” Œœ„ ·· Œ“Ì‰ «·⁄‰’— «·Ê«Õœ ›ﬁÿ 
-			//ﬁÌ„ Â« ”Ê›  ﬂÊ‰ «· ” —Ìﬂ Ã— «·Ì ”«ÊÂ «ﬂ«Ê‰ ‰„»— 
+			//√ë√á√ç √≠√é√í√§ in my info √ù√û√ò √á√°√ö√§√ï√ë √á√°√ê√≠ = account 
+			//by refrinc √ä√ì√ä√é√è√£ √°√°√ä√é√í√≠√§ √á√°√ö√§√ï√ë √á√°√¶√á√ç√è √ù√û√ò 
+			//√û√≠√£√ä√•√á √ì√¶√ù √ä√ü√¶√§ √á√° √ì√ä√ë√≠√ü√ä√å√ë √á√°√≠ √ì√á√¶√• √á√ü√á√¶√§ √§√£√à√ë 
 			return true;
 
 		}
@@ -312,7 +312,7 @@ void addnewclintes()
 }
 void update_cliant_by_account_number(string account_number, vector<infoaccount>& vinfo)
 {
-	// Â–Â «·œ«·…  ” ﬁ»· ›Ìﬂ Ê— „·Ì«‰
+	// √•√ê√• √á√°√è√á√°√â √ä√ì√ä√û√à√° √ù√≠√ü√ä√¶√ë √£√°√≠√á√§
 	infoaccount myinfo;
 	char answer;
 
@@ -334,9 +334,9 @@ void update_cliant_by_account_number(string account_number, vector<infoaccount>&
 
 			}
 			saveclaintdatatofile(myfile, vinfo);
-			//  ﬁÊ„ Â–Â «·œ«·… »ÿ»«⁄Â „‰ ÃœÌœ ›ﬁÿ «·„⁄·Ê„«  «·Ì «Œ— ⁄‰À— »ÌÂ« Ì”«ÊÌ false Ì⁄‰Ì «·⁄‰’— «·Ì  „  €Ì—Â ›Êﬁ ·« Ì‰ÿ»⁄
-			// »ÂœÂ« ”Ê› Ì „ «œŒ«· «·„·› »«·œ«·…  Õ 
-			// Ê„‰ À„Â ”Ê›  Œ“‰ ›Ì «·›Ìﬂ Ê— ﬂ ⁄‰«’— ‰«ﬁ’… Ê«Õœ
+			// √ä√û√¶√£ √•√ê√• √á√°√è√á√°√â √à√ò√à√á√ö√• √£√§ √å√è√≠√è √ù√û√ò √á√°√£√ö√°√¶√£√á√ä √á√°√≠ √á√é√ë √ö√§√ã√ë √à√≠√•√á √≠√ì√á√¶√≠ false √≠√ö√§√≠ √á√°√ö√§√ï√ë √á√°√≠ √ä√£ √ä√õ√≠√ë√• √ù√¶√û √°√á √≠√§√ò√à√ö
+			// √à√•√è√•√á √ì√¶√ù √≠√ä√£ √á√è√é√á√° √á√°√£√°√ù √à√á√°√è√á√°√â √ä√ç√ä
+			// √¶√£√§ √ã√£√• √ì√¶√ù √ä√é√í√§ √ù√≠ √á√°√ù√≠√ü√ä√¶√ë √ü √ö√§√á√ï√ë √§√á√û√ï√â √¶√á√ç√è
 			//refrish;
 
 
@@ -354,7 +354,7 @@ void update_cliant_by_account_number(string account_number, vector<infoaccount>&
 void delet_cliant_by_account_number(vector<infoaccount>& vinfo, string account_number)
 {
 
-	// Â–Â «·œ«·…  ” ﬁ»· ›Ìﬂ Ê— „·Ì«‰
+	// √•√ê√• √á√°√è√á√°√â √ä√ì√ä√û√à√° √ù√≠√ü√ä√¶√ë √£√°√≠√á√§
 	infoaccount myinfo;
 	char answer;
 
@@ -366,12 +366,12 @@ void delet_cliant_by_account_number(vector<infoaccount>& vinfo, string account_n
 		if (answer == 'y' || answer == 'Y')
 		{
 			mark_clint_for_delete_by_account_number(account_number, vinfo);
-			//^ »«· «·Ì ”Ê›  ”ﬁ»·Â «·œ«·… «·”›·Ì… >Â–Â ”Ê›  —Ã⁄ ›Ì «·›Ìﬂ Ê—  «·” —ÌﬂÃ— «·„” Âœ› „ €Ì— ›ÌÂ «·⁄‰’— «·«ŒÌ—
+			//^ √à√á√°√ä√á√°√≠ √ì√¶√ù √ä√ì√û√à√°√• √á√°√è√á√°√â √á√°√ì√ù√°√≠√â >√•√ê√• √ì√¶√ù √ä√ë√å√ö √ù√≠ √á√°√ù√≠√ü√ä√¶√ë  √á√°√ì√ä√ë√≠√ü√å√ë √á√°√£√ì√ä√•√è√ù √£√ä√õ√≠√ë √ù√≠√• √á√°√ö√§√ï√ë √á√°√á√é√≠√ë
 
 			saveclaintdatatofile(myfile, vinfo);
-			//  ﬁÊ„ Â–Â «·œ«·… »ÿ»«⁄Â „‰ ÃœÌœ ›ﬁÿ «·„⁄·Ê„«  «·Ì «Œ— ⁄‰À— »ÌÂ« Ì”«ÊÌ false Ì⁄‰Ì «·⁄‰’— «·Ì  „  €Ì—Â ›Êﬁ ·« Ì‰ÿ»⁄
-			// »ÂœÂ« ”Ê› Ì „ «œŒ«· «·„·› »«·œ«·…  Õ 
-			// Ê„‰ À„Â ”Ê›  Œ“‰ ›Ì «·›Ìﬂ Ê— ﬂ ⁄‰«’— ‰«ﬁ’… Ê«Õœ
+			// √ä√û√¶√£ √•√ê√• √á√°√è√á√°√â √à√ò√à√á√ö√• √£√§ √å√è√≠√è √ù√û√ò √á√°√£√ö√°√¶√£√á√ä √á√°√≠ √á√é√ë √ö√§√ã√ë √à√≠√•√á √≠√ì√á√¶√≠ false √≠√ö√§√≠ √á√°√ö√§√ï√ë √á√°√≠ √ä√£ √ä√õ√≠√ë√• √ù√¶√û √°√á √≠√§√ò√à√ö
+			// √à√•√è√•√á √ì√¶√ù √≠√ä√£ √á√è√é√á√° √á√°√£√°√ù √à√á√°√è√á√°√â √ä√ç√ä
+			// √¶√£√§ √ã√£√• √ì√¶√ù √ä√é√í√§ √ù√≠ √á√°√ù√≠√ü√ä√¶√ë √ü √ö√§√á√ï√ë √§√á√û√ï√â √¶√á√ç√è
 			//refrish;
 			vinfo = LoadCleintsDataFromFile(myfile);
 			cout << "\n\nClient Deleted Successfully.";
@@ -533,7 +533,7 @@ vector<infoaccount> updet_balanc(string myfile,vector<infoaccount>vinfo)
 bool deposit(vector<infoaccount>& vinfo, string account_number,double amount)
 {
 
-	// Â–Â «·œ«·…  ” ﬁ»· ›Ìﬂ Ê— „·Ì«‰
+	// √•√ê√• √á√°√è√á√°√â √ä√ì√ä√û√à√° √ù√≠√ü√ä√¶√ë √£√°√≠√á√§
 	infoaccount myinfo;
 	char answer;
 	//double deposit_m;
@@ -597,7 +597,7 @@ void chack_withdraw(infoaccount &withd,string account_number)
 void withdraw_m(vector<infoaccount>& vinfo, string account_number)
 {
 
-	// Â–Â «·œ«·…  ” ﬁ»· ›Ìﬂ Ê— „·Ì«‰
+	// √•√ê√• √á√°√è√á√°√â √ä√ì√ä√û√à√° √ù√≠√ü√ä√¶√ë √£√°√≠√á√§
 	infoaccount myinfo;
 	char answer;
 	double withdraw;
